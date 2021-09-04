@@ -48,7 +48,7 @@ spec:
           script: |
             #!/usr/bin/env sh
             jx gitops variables
-        - image: ghcr.io/jenkins-x/terraform-operator-gcp
+        - image: gcr.io/google.com/cloudsdktool/cloud-sdk:alpine
           name: run-gcloud         
           script: |
             #!/bin/sh
