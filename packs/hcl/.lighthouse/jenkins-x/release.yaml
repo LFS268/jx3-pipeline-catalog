@@ -11,7 +11,7 @@ spec:
       taskSpec:
         metadata: {}
         stepTemplate:
-          image: uses:jenkins-x/jx3-pipeline-catalog/tasks/hcl/release.yaml@versionStream
+          image: uses:LFS268/jx3-pipeline-catalog/tasks/hcl/release.yaml@versionStream
           name: ""
           resources:
             requests:
