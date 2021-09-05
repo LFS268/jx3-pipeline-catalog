@@ -54,9 +54,8 @@ spec:
             #!/bin/sh
             terraform version
             terraform init
-            terraform apply
+            terraform apply -auto-approve
           resources: {}
-
   podTemplate: {}
   serviceAccountName: tekton-bot
   timeout: 0h20m0s
